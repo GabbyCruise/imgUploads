@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const localUrl = process.env.lacalUrl;
+const localUrl = process.env.localUrl;
 
 
 mongoose.connect(localUrl, { useCreateIndex: true, useUnifiedTopology: true, useNewUrlParser: true, useFindAndModify: false }, (err, connected) => {
