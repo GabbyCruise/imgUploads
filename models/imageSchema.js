@@ -1,13 +1,13 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-//-------------------PRAYER SCHEMA ---------------------//
+//-------------------IMAGE SCHEMA ---------------------//
 const imageSchema = new Schema({
 	image_title: String,
 	doc_id: String,
 	image_link: String,
   image_content: String,
-	
+
 	// for images
 	filename: {
 		type: String,
